@@ -1,4 +1,4 @@
-# gatsby-starter-hello-world
+# I used gatsby-starter-hello-world to bootstrap this site
 Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
