@@ -7,6 +7,11 @@ const MenuLink = props =>
     <div className="menu__link"><span className="cross">+ </span>{props.children}</div>
   </Link>
 
+const BlogMenuLink = props =>
+<Link to={props.to} activeClassName="cross--active">
+  <div className="menu__link"><span className="cross">+ </span>{props.children}</div>
+</Link>
+
 class Menu extends Component {
   render() {
     return (
@@ -14,6 +19,7 @@ class Menu extends Component {
         <MenuLink to="/">Home</MenuLink>
         <MenuLink to="/now/">Now</MenuLink>
         <MenuLink to="/projects/">Projects</MenuLink>
+        <BlogMenuLink to="/blog/">Blog</BlogMenuLink>
       </div>
     );
   }
