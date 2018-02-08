@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: lehanism/myportfolio
 
 media_folder: static/assets
 
