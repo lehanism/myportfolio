@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Quicksand:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Quicksand:300,400,500,700');
 
 html {
   box-sizing: border-box;
@@ -23,9 +23,13 @@ a {
   text-align: center;
 }
 
-.Menu {
-  color: #363535;
-  text-align: center;
+.Menu a {
+  color: #767071;
+  font-weight: 500;
+}
+
+.Menu .cross--active {
+  color: #ea394f;
 }
 
 .menu__link {
@@ -33,7 +37,7 @@ a {
   width: 118%;
   margin-left: -18%;
   padding: 20px 0 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid rgb(247, 246, 246);
 }
 
 .cross {
@@ -67,7 +71,7 @@ a {
     width: 250px;
     padding: 60px 0px 0 20px;
     left: 16px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid rgb(247, 246, 246);
   }
 }
 
@@ -117,9 +121,9 @@ a {
 
 .page {
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 2.1;
+  line-height: 2.3;
   max-width: 613px;
   margin-left: 0;
   padding: 80px 0 0 0;
@@ -165,7 +169,7 @@ h1 {
   font-size:20px;
   line-height: 1.4;
   padding: 20px 34px 26px 34px;
-  border: solid 1px #eee;
+  border: solid 2px #eee;
   background-color: #fdfdfd;
 }
 
@@ -350,4 +354,49 @@ footer {
 .fade-enter.fade-enter-active {
   opacity: 1;
   transition: opacity 500ms ease-in;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.moremargin {
+  margin-bottom: 80px;
+}
+
+.blog-panel {
+  background-color: #fdfdfd;
+  border: 2px solid #eeeeee;
+  padding: 18px 30px;
+  margin: 0 0 60px 0;
+  transition: border 0.4s, background-color 0.4s;
+}
+
+.blog-panel:hover {
+  border: 2px solid #ea394f;
+  background-color: #fff;
+}
+
+.blog-h {
+  display: inline-block;
+  border: none;
+  padding: 3px 12px 5px 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #ea394f;
+}
+
+.blog-date {
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ea394f;
+}
+
+.blog-ex {
+  font-size: 14px;
+  color: #252323;
 }
