@@ -8,7 +8,7 @@ export default function Template({
   return (
     <div className="page">
       <div>
-        <h1>{frontmatter.title}</h1>
+        <h1><span className='red'>{frontmatter.title}</span></h1>
         <h2>{frontmatter.date}</h2>
         <div
           dangerouslySetInnerHTML={{ __html: html }}
