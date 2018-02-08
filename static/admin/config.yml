@@ -7,7 +7,7 @@ media_folder: static/assets
 collections:
   - name: blog
     label: Blog
-    folder: folder: "src/pages/content"
+    folder: "src/pages/content"
     create: true
     fields:
       - {label: "Path", name: "path", widget: "string"}
